@@ -1,0 +1,15 @@
+g.tempo {
+    fill: crimson;
+}
+
+g.chord g.artic {
+    animation-name: pulse;
+    animation-duration: 1.0s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+    0% {fill: orange;}
+    50% {fill: brown;}
+    100% {fill: orange;}
+}
